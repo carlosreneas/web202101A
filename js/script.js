@@ -44,6 +44,7 @@ function cargar(el) {
 	        	const picture = document.createElement("picture");
 	        	picture.setAttribute("class","datos__picture");
 	        	const img = doc.body.getElementsByClassName("img")[0];
+	        	img.innerHTML = img.innerHTML.replace('"img/foto.jpg"','"students/'+el.dataset.codigo+'/img/foto.jpg"');
 	        	picture.appendChild(img);
 	        	el.appendChild(picture);
 
@@ -80,7 +81,7 @@ function cargar(el) {
 	        	
 	        	const enlace = document.createElement("div");
 	        	const informacion = document.createElement("a");
-	        	informacion.href = el.dataset.codigo + "/index.html";
+	        	informacion.href = "students/" + el.dataset.codigo + "/index.html";
 	        	informacion.setAttribute("class", "datos__enlace");
 	        	informacion.innerHTML = "Información";
 
