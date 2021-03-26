@@ -1,5 +1,7 @@
 document.addEventListener('DOMContentLoaded', function () {
 
+	loadContent();
+	/*
 	var requestList = new XMLHttpRequest();
 	requestList.open('GET', 'data/data.txt', true);
 	requestList.onload = function (e) {
@@ -27,6 +29,7 @@ document.addEventListener('DOMContentLoaded', function () {
 	};
 	requestList.send();
     console.log("¡Estamos en vivo!");    
+    */
 });
 
 
@@ -44,7 +47,6 @@ function cargar(el) {
 	        	const picture = document.createElement("picture");
 	        	picture.setAttribute("class","datos__picture");
 	        	const img = doc.body.getElementsByClassName("img")[0];
-	        	img.innerHTML = img.innerHTML.replace('"img/foto.jpg"','"students/'+el.dataset.codigo+'/img/foto.jpg"');
 	        	picture.appendChild(img);
 	        	el.appendChild(picture);
 
@@ -81,7 +83,7 @@ function cargar(el) {
 	        	
 	        	const enlace = document.createElement("div");
 	        	const informacion = document.createElement("a");
-	        	informacion.href = "students/" + el.dataset.codigo + "/index.html";
+	        	informacion.href = el.dataset.codigo + "/index.html";
 	        	informacion.setAttribute("class", "datos__enlace");
 	        	informacion.innerHTML = "Información";
 

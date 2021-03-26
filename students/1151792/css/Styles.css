@@ -1,0 +1,51 @@
+
+body{
+    background-image: url('../img/BackGround.jpg');
+}
+header{
+    opacity: 80%;
+}
+article{
+    opacity: 80%;
+}
+.centrar{
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 5in;
+}
+.centrarImg{
+    margin-left: 50%;
+    transform: translateX(-50%);
+    width: 400px;
+    height: 400px;
+}
+.centrarCuerpo{
+    width: 80%;
+    margin-left: 50%;
+    transform: translateX(-50%);
+}
+img{
+    width: 100%;
+}
+article{
+    border-radius: 1in;
+}
+
+@media (max-width: 1000px){
+    header{
+        width: 95%;
+    }
+    .centrarCuerpo{
+        width: 90%;
+    }
+}
+
+@media (max-width: 700px){
+    header{
+        width: 100%;
+    }
+    .centrarCuerpo{
+        width: 100%;
+    }
+}
+
