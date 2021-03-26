@@ -1,0 +1,68 @@
+body{
+background-image: url(https://s1.1zoom.me/b5050/596/Evening_Forests_Mountains_Firewatch_Campo_Santo_549147_1920x1080.jpg);
+font-family: arial;
+background-repeat: no-repeat;
+background-size: 1920px;
+
+}
+
+h1{
+	color: white;
+}
+
+form{
+	text-align: center;
+	width:550px;
+	padding:16px;
+	border-radius:15px;
+	margin:auto;
+	background-color:rgb(3,17,43);
+}
+
+form label{
+	color: white;
+	width:200px;
+	font-weight:bold;
+	display:inline-block;
+}
+
+form input[type="text"],
+form input[type="email"]{
+	width:180px;
+	padding:3px 10px;
+	border:1px solid #f6f6f6;
+	border-radius:3px;
+	background-color:#f6f6f6;
+	margin:8px 0;
+	display:inline-block;
+}
+
+form input[type="submit"]{
+  color: #318aac !important;
+  font-size: 20px;
+  font-weight: 500;
+  padding: 0.5em 1.2em;
+  background: rgba(0,0,0,0);
+  border: 2px solid;
+  border-color: #318aac;
+  transition: all 1s ease;
+  position: relative;
+} 
+
+form input[type="submit"]:hover{
+  background: #318aac;
+  color: #fff !important;
+}
+
+textarea{
+	width:100%;
+	height:100px;
+	border:1px solid #f6f6f6;
+	border-radius:3px;
+	background-color:#f6f6f6;			
+	margin:8px 0;
+	/*resize: vertical | horizontal | none | both*/
+	resize:none;
+	display:block;
+}
+
