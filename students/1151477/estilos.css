@@ -13,7 +13,7 @@ body {
 img{
   height: 400px;
   width: 400px;
-  border-radius: 10px;
+ 
 
 }
 
@@ -52,9 +52,9 @@ h1{
 }
 
 .header-fondo {
-  height: 150vh;
+  height: 180vh;
   width: 100vw;
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
   background: #303952;
@@ -88,3 +88,36 @@ a{
   .contenido {
     padding: 0 3rem 0 3rem;
   }
+
+
+
+@media (max-width: 767.98px) {
+
+  img{
+    width: 300px;
+    height: 300px;
+  }
+
+  .header-contenido{
+    font-size: 0.8rem;
+  }
+ 
+}
+
+@media (max-width: 575.98px) {
+
+  img{
+    width: 270px;
+    height: 270px;
+  }
+
+  .header-contenido{
+    font-size: 0.5rem;
+  }
+
+}
+
+
+
+
+
