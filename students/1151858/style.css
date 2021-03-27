@@ -1,0 +1,45 @@
+.titulo
+{
+    color: #355723;
+    font-family: 'Paprika', cursive;
+}
+
+.nav-link
+{
+    color: black;
+    font-family: 'Lobster', cursive;
+    font-size: 1.5em;
+    text-shadow: #355723 0px 0px 4px;
+}
+
+.nav
+{
+    padding-top: 7px;
+}
+
+h2
+{
+    color: #355723;
+    font-weight: bold;
+    font-family: 'Paprika', cursive;
+}
+
+h3
+{
+    text-align: center;
+    color: #798da3;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+h5
+{
+    font-family: 'Lobster', cursive;
+}
+
+.card-text, .parrafo
+{
+    color: #909296
+}
+
+
