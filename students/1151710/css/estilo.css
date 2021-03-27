@@ -1,0 +1,44 @@
+body{
+background-image: url("https://wallpaperstock.net/wallpapers/thumbs1/54299hd.jpg");
+}
+
+img{
+	display:block;
+margin:auto;
+}
+h1{
+	color: white;
+	font-size: 250%;
+	
+}
+p{
+	color:black;
+	text-align:center;
+	background:white;
+	font-size: xx-large;
+	border: 1px;
+}
+
+div{
+font-size: x-large;
+color:white;
+	text-align:center;
+}
+label{
+	background:gray;
+	margin:5px;
+	padding:5px;
+}
+span{
+	background:black;
+	color:white;
+	
+	
+}
+a{
+	background:black;
+	color:white;
+	
+	text-align:center;
+}
+;
