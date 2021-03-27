@@ -1,0 +1,77 @@
+*{
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+
+/*
+	HEADER
+*/
+header{
+	margin: 15px 26%;
+}
+
+h1{
+	font-family: 'Montserrat Alternates', sans-serif;
+	height: 65px;
+	padding-top: 12px;
+	background-color: #25BBA9;
+	font-family: Candara, Segoe;
+	color: white;
+	text-align: center;
+}
+
+/*
+	IMAGEN
+*/
+
+.img{
+	background-color: #25BBA9;
+	margin: 0 26%;
+}
+img{
+	width: 400px;
+	margin-top: 10px;
+	margin-left: 20%;
+}
+
+
+/*
+	NAVEGACION
+*/
+
+
+nav{
+	font-family: 'Montserrat Alternates', sans-serif;
+	background-color: #25BBA9;
+	margin: 10px 26% 0px;
+	text-align: center;
+}
+
+/*
+	FOOTER
+*/
+
+footer{
+	font-family: 'Montserrat Alternates', sans-serif;
+	padding-top: 10px;
+	background-color: #25BBA9;
+	text-align: center;
+	margin: 0 26%;
+	height: 30px;
+}
+
+
+body{	
+	background-image: url(https://fondosmil.com/fondo/16641.jpg);
+}
+
+#boton{
+	font-family:'Nunito', sans-serif; 
+	font-size: 20px;
+	color: white;
+	padding: 10px;
+	background-color: #0C637C;
+	border: 2px #FFB6C1 solid;
+	transition-duration: 0.4s;	
+}
