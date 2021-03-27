@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>formulario de contactos</title>
+        <link rel="stylesheet" type="text/css" href="csscontacto/estilocontacto.css">
+        <style type="text/css"></style>
+    </head>
+    <body>
+        
+        <div id="general">
+            <H1 style="text-align: center">FORMULARIO</H1>
+        <form action="https://api.staticforms.xyz/submit" method="post">
+            <label for="nombre">Nombre: </label>
+            <br>
+            <input style="width:300px" type="text" name="name" placeholder="Tu Nombre" maxlength="50" required>
+            <br>
+            <label for="$asunto">Asunto:</label>
+            <br>
+            <input style="width:300px" type="text" name="$asunto" placeholder="Asunto" required>
+            <br>
+            <label for="email">Email: </label>
+            <br>
+            <input style="width:300px" type="text" name="email" placeholder="Tu Email" required>
+            <br>
+            <label for="mensaje">Ingrese su mensaje: </label>
+            <br>
+            <textarea style="width:544px" placeholder="Mucho texto" name="message"></textarea>
+            
+            <input type="text" name="honeypot" style="display:none">
+            <input type="hidden" name="accessKey" value="98c4f3c1-6125-4fe6-bdb3-f1d2409c81c0">
+            <input type="hidden" name="subject" value="Prueba conctactame">
+            <input type="hidden" name="replyTo" value="@">
+            <input type="hidden" name="redirectTo" value="https://marioesparza21.github.io/actCSS/">
+            <br>
+            <input type="submit" value="Enviar">
+        </form>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,170 @@
+div#generalcabeza{
+  margin: auto;
+  padding: 50px;
+  margin-top: 100px;
+  width:525px;
+  height:50px;
+  background-color:rgb(3,17,43);
+  border-radius: 15px;
+} 
+
+div#general{
+	margin: auto;
+	padding: 30px;
+	width:1050px;
+	height:950px;
+	background-color:rgb(3,17,43);
+	border-radius: 15px;
+} 
+
+div#generalpie{
+	margin: auto;
+	padding: 20px;
+	width:1050px;
+	height:200px;
+	background-color:rgba(3,17,43);
+}
+
+body{
+background-image: url(https://s1.1zoom.me/b5050/596/Evening_Forests_Mountains_Firewatch_Campo_Santo_549147_1920x1080.jpg);
+font-family: arial;
+background-repeat: no-repeat;
+background-size: 1901px;
+background-color:rgb(3,17,43);
+}
+
+h1{
+color: rgb(255, 255, 255)
+}
+
+h2{
+color: rgb(255, 255, 255)
+}
+
+h3{
+color: rgb(255, 255, 255);
+}
+
+li{
+color: rgb(255, 255, 255)
+}
+
+
+
+
+
+
+
+
+table{
+  background-color:white;
+  table-layout: fixed;
+  width: 100%;
+  border-collapse: collapse;
+}
+
+thead th {
+  width: 30%;
+  background: #318aac;
+  color: #fff !important;
+}
+
+th, td {
+  padding: 10px;
+}
+
+p {
+	color: white;
+}
+
+.email{
+  color: white;
+}
+
+div#hobbies{
+float: left;
+padding-left: 50px;
+font-family: condensed 120% sans-serif;
+
+}
+div#peliculas{
+  padding: auto;
+  float: right;
+  padding-right: 100px;
+  font-family: condensed 120% sans-serif;
+
+}
+
+.clear{
+  clear: both;
+}
+
+.boton {
+  color: #318aac !important;
+  font-size: 20px;
+  font-weight: 500;
+  padding: 0.5em 1.2em;
+  background: rgba(0,0,0,0);
+  border: 2px solid;
+  border-color: #318aac;
+  transition: all 1s ease;
+  position: relative;
+}
+.boton:hover {
+  background: #318aac;
+  color: #fff !important;
+}
+
+.img{
+  margin: auto;
+  padding: 10px;
+  width:400px;
+  height:400px;
+  border-radius: 15px;
+    background: #318aac;
+  color: #fff !important;
+}
+
+.content-foo{
+    display: flex;
+  width:1050px;
+    justify-content: space-evenly;
+    padding-bottom: 50px;
+    border-bottom: 1px solid rgb(255, 255, 255);
+    text-align: center;
+}
+
+
+.content-foo h4{
+    color: white;
+    border-bottom: 3px solid rgb(255, 255, 255);
+    padding-bottom: 5px;
+    margin-bottom: 20px;
+}
+
+.content-foo p{
+    color: white;
+
+}
+
+div#positionboton{
+  display: flex;
+  justify-content: space-between;
+  width: 525px;;
+}
+
+.botontop {
+  color: #318aac !important;
+  font-size: 30px;
+  font-weight: 1000;
+  padding: 0.5em 1.2em;
+  background: rgba(0,0,0,0);
+  border: 2px solid;
+  border-color: #318aac;
+  transition: all 1s ease;
+  position: relative;
+}
+.botontop:hover {
+  background: #318aac;
+  color: #fff !important;
+}
