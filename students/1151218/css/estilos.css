@@ -1,0 +1,55 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Helvetica, Arial, sans-serif;
+  color: #666;
+  background: #f2f2f2; 
+  font-size: 1em;
+  line-height: 1.5em;
+  /* Aquí el origen de la imagen */
+  background-image: url(https://img.freepik.com/vector-gratis/diseno-moderno-fondo-geometrico-abstracto-vector-color-negro-gris_24070-79.jpg?size=626&ext=jpg);
+   /* Fijar la imagen de fondo este vertical y horizontalmente y centrado */
+  background-position: center center;
+  /* Esta imagen no debe de repetirse */
+  background-repeat: no-repeat;
+  /* COn esta regla fijamos la imagen en la pantalla. */
+  background-attachment: fixed;
+  /* La imagen ocupa el 100% y se reescala */
+  background-size: cover;
+  /* Damos un color de fondo mientras la imagen está cargando  */
+  background-color: #464646;
+
+}
+
+body url{
+  max-width: 100%;
+  height: auto;
+}
+#main-footer {
+  background: #333;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  margin-top: 122px;
+}
+  
+ p {
+  margin: 0 0 1.5em 0;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+#main-footer p {
+    margin: 0;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing:border-box;
+  -moz-box-sizing:border-box;
+  box-sizing:border-box;
+}
