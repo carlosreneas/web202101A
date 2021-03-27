@@ -1,0 +1,22 @@
+*{background-image: url(http://www.solofondos.com/wp-content/uploads/2015/11/fondo.png);
+ background-size: 100%;}
+
+span{color: white; font-family: cooper black;}
+a{color: white; font-family: cooper black;}
+.clearfix{clear: both;}
+#text{color: white; font-family: cooper black;}
+#title{color: white; font-family: forte;}
+#escrito{color: white; font-family: cooper black; text-align: center;}
+#autor{color: white; font-family: cooper black;}
+
+img {
+border: 2px solid grey;
+margin: 0 auto;
+display: block;
+padding: 0 auto;
+border-radius: 200px;
+float: left;
+    position: relative;  
+}
+
+#contenido{}
