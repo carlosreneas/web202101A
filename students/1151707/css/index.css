@@ -1,0 +1,65 @@
+html
+{background-image: linear-gradient(25deg, #ffeea5 0, #ffe3a8 8.33%, #ffd7a9 16.67%, #ffcaaa 25%, #ffbca8 33.33%, #ffada4 41.67%, #f29d9d 50%, #d88e95 58.33%, #c1828d 66.67%, #ac7785 75%, #9b6f7f 83.33%, #8d6879 91.67%, #826475 100%);
+border-left: 100% solid green ;
+border-right: 100% solid green ;
+}
+
+  #imagen1{
+	  float:left;
+	   width:400px;
+    height:400px;
+    border-radius:120px;
+    
+}
+.boton, .email{
+border: 1px solid #2e518b; /*anchura, estilo y color borde*/
+padding: 10px; /*espacio alrededor texto*/
+background-color: #2e518b; /*color botón*/
+color: #ffffff; /*color texto*/
+text-decoration: none; /*decoración texto*/
+text-transform: uppercase; /*capitalización texto*/
+font-family: 'Helvetica', sans-serif; /*tipografía texto*/
+border-radius: 50px; /*bordes redondos*/
+	
+}
+.
+
+#audio1{
+	border:1px solid blue;
+	background:blue;
+}
+
+.nombre
+{
+	color:black;font-family:arial;font-size:32px;
+	
+}
+
+h2
+{
+	color:blue;
+	
+}
+
+ul{
+	clear: both;
+	color: green;
+}
+
+h3{
+	clear: both;
+	color:blue;
+}
+
+.normal{
+	width:75%;
+	border: 1px solid black;
+	border-collapse:collapse;
+}
+.normal th{
+	border: 1px solid black;color:white; background:blue;
+}
+ .normal td{
+	border: 1px solid black;
+	background:white;	
+}
