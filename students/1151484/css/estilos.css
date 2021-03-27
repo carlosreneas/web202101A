@@ -14,20 +14,20 @@ img{
 
 }
 a{
-	color:rgb(164.28, 153.35, 249.65);
+	color:rgb(238.95, 220.07, 164.05);
 }
 span{
 	display: inline-block;
 	width: 67%;
-	font-family: 'Fjalla One', sans-serif;
-	color: rgb(164.28, 153.35, 249.65);
+	font-family: 'Staatliches', cursive;
+	color: rgb(238.95, 220.07, 164.05);
 	font-size: 18px;
 	background-color: rgb(255, 255, 255,0.2);
 }
 .cont3 h4{
 	text-align: center;
-	font-family: 'Fjalla One', sans-serif;
-	color: rgb(209.1, 193.67, 147.9);
+	font-family: 'Staatliches', cursive;
+	color: rgb(229.5, 229.5, 229.5);
 	font-size: 18px;
 }
 .cont1{
@@ -43,7 +43,7 @@ span{
 .cont3{
 	display: inline-block;
 	width: 30%;
-	font-family: 'Fjalla One', sans-serif;
+	font-family: 'Staatliches', cursive;
 	background: rgb(255, 255, 255,0.2);
 }
 
