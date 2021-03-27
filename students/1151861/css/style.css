@@ -1,0 +1,38 @@
+body{
+	background-color: #FFFFFF;
+	background-image: url(../img/fondo.jpg);*/
+  height: 20px;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+#header {
+		background: #1c1c1c;
+		color: #d5d5d5;
+		cursor: default;
+		height: 7em;
+		left: 0;
+		line-height: 7em;
+		position: fixed;
+		text-align: left;
+		top: 0;
+		width: 100%;
+		z-index: 10001;
+		object-fit: cover;
+	}
+
+
+#header div img{
+	height: 5em;
+	border-radius: 150px;
+	border-color: #FFFFFF;
+}
+
+#header div  h1{
+	margin:auto;
+	color: #FF0000;
+	font-family: 'Brush Script MT', cursive;
+}
+	
+
