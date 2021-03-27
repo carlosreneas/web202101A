@@ -1,0 +1,31 @@
+
+
+.img img{
+	height: 300px;
+    width: 300px;
+	margin-right: 240px;
+    margin-left: 230px; 
+}
+
+
+body {
+	border: 2px solid black;
+    outline-style: solid;
+    outline-color: #0F35DE;
+	background: #A0CFFF;
+    outline-width: medium;
+	margin-right: 290px;
+    margin-left: 290px;   
+	background:#E8D8FF;
+	
+}
+
+h1 {
+	color: #DE0F23;
+	text-align: center;
+	text-shadow: 2px 2px 5px #1C0FDE;
+}
+.subtitulo{
+	
+	text-align: center;
+}
