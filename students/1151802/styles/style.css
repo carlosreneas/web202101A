@@ -1,0 +1,35 @@
+body {
+  background: linear-gradient(to top, #9F8189, #F3ABB6, #FFCAD4,
+   #FFE5D8, #FBEEE6 );
+}
+
+h1,h2, th,li, td {
+  color: #F25D74;
+  font-family: SF Toontime;
+}
+
+ p {
+  color: #4D0309;
+  font-size: 20px;
+  font-family: SF Toontime;
+  text-transform: uppercase;
+}
+
+.encabezado{
+  background-color: #FEF9E7;
+  text-align: center;
+}
+.data{
+  background-color: #FEF9E7;
+  width: 20%;
+  vertical-align: top;
+  
+}
+.info{
+  width: 80%;
+}
+.footer{
+    background: #148f77;
+    text-align: center;
+
+}
