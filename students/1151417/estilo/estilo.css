@@ -1,0 +1,62 @@
+img{
+	display: block;
+	margin: 10px auto;
+	border-radius: 200px; 
+}
+.contenido{
+
+	background-image: url("../img/fondo2.jpg");
+	background-size: cover;
+  	text-align: center;
+  	width: 1000px;
+  	margin: 0px auto;
+
+}
+body{
+	background-image: url("../img/fondo.jpg");
+	background-size: cover;
+}
+h1{
+	text-shadow: 3px 3px #FAFAF8;
+}
+
+h3{
+	font: oblique bold 120% cursive;
+	padding: 1em;
+}
+
+.menu{
+  
+  padding: 5px;
+  width: 12%;
+  background-color: rgb(229, 232, 232,0.5) ;
+  position: fixed;
+  overflow: all;
+  height: 100%;
+}
+li a {
+  display: block;
+  color: #000;
+  padding: 8px 15px;
+  text-decoration-line:  underline;
+  text-decoration-style: wavy;
+  font: oblique bold 120% cursive;
+}
+}
+li a:hover:not(.activo) {	
+  background-color: #555;
+  color: white;
+}
+
+.facebook{
+	font: oblique bold 120% cursive;
+}
+@media screen and (max-width: 600px) {
+  .col-25, .col-75, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+
+}
+
+
