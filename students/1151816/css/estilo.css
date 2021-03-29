@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.general {
+    background-image: url(https://media.giphy.com/media/TZf4ZyXb0lXXi/source.gif);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 100%;
+    height: 100vh;
+
+    background-position: center;
+    
+}
+
+.p {
+    background-color: #fff;
+    border-style: outset;
+    text-align: justify;
+    padding-left: 1%;
+    padding-right: 1%;
+}
+
+.enlaces {
+    color: #fff;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    text-align: center;
+    
+}
+.color-b{
+    color: #fff;
+}
+
+.enlaces>ul>li{
+    padding-bottom: 2%;
+}
+
+header {
+    color: rgb(255, 219, 88);
+    background-color: black;
+    text-align: center;
+    text-shadow: 2px 2px red;
+    text-decoration: underline;
+    overflow: hidden;
+
+}
+
+header>.titulo {
+    font-size: 300%;
+}
+
+footer {
+    padding-top: 20px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    height: 50px;
+    width: 100%;
+}
+
+footer>a {
+    color: #fff;
+    text-decoration: none;
+}
+
+footer>a:hover {
+    color: blue;
+}
+
+.foto {
+    margin: auto;
+    padding-top: 1%;
+    padding-bottom: 2%;
+}
+
+.foto>img {
+    width: 30%;
+    height: 40%;
+    display: block;
+    margin: auto;
+    border-radius: 50%;
+}
