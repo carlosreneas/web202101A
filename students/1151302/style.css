@@ -1,0 +1,23 @@
+body
+{
+    background-image: url("2.jpg");
+}
+.principal 
+{
+    background-color: rgb(255, 255, 255, 0.8);
+    text-align: center;
+    width: 1000px;
+}
+img 
+{
+    width: 250px;
+}
+li 
+{
+    width: 100px;
+}
+h1, 
+p 
+{
+    color: black;
+}
