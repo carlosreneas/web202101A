@@ -1,0 +1,45 @@
+html{
+    background-image: url(img/fondo.jpg);
+    
+}
+
+.contenedor{
+			background:PaleTurquoise;
+           width:70%;
+           margin:0px auto;
+           border:1px solid black;
+		}
+
+.img{
+	margin: auto;
+    width: 400px;
+    height: 400px;
+}
+
+section{
+    margin: auto;
+    width: 300px;
+    height: auto;
+    text-align: center;
+
+}
+
+.article{
+             border-bottom: 1px solid black;
+             margin-top: 15px;
+             padding-bottom: 10px;
+             border-bottom: 1px solid MediumPurple;
+		}
+
+p{
+	text-align: center;
+	background-color: white;
+}
+		
+.conctato{
+	margin: auto;
+    width: 300px;
+    height: auto;
+    text-align: center;
+
+}
