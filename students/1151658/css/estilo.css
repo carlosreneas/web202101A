@@ -1,0 +1,16 @@
+body {
+width : 800;
+margin-left : auto;
+margin-right : auto;
+padding : 0px;
+}
+
+#logo-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#logo-container>img {
+    max-width: 50%;
+    border: 2px solid black;
+}
