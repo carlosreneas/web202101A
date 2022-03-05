@@ -1,0 +1,56 @@
+*{
+	margin:0px;
+	padding: 0px;
+	box-sizing: border-box;
+	
+}
+body{
+	background-image: url("https://i.pinimg.com/originals/ff/94/d7/ff94d7d404ecc5dfd2298bb74ae30ce2.jpg");
+}
+img{
+	height: 400px;
+	width:  400px;
+	border-radius: 300px;
+
+}
+a{
+	color:rgb(238.95, 220.07, 164.05);
+}
+span{
+	display: inline-block;
+	width: 67%;
+	font-family: 'Staatliches', cursive;
+	color: rgb(238.95, 220.07, 164.05);
+	font-size: 18px;
+	background-color: rgb(255, 255, 255,0.2);
+}
+.cont3 h4{
+	text-align: center;
+	font-family: 'Staatliches', cursive;
+	color: rgb(229.5, 229.5, 229.5);
+	font-size: 18px;
+}
+.cont1{
+	text-align: center;
+	margin: 2%;
+}
+.cont2{
+	text-align: center;
+	background: black;
+	width: 500px;	margin: 0px auto;
+	background-color: rgba(127.5, 127.5, 127.5, 0.2);
+}
+.cont3{
+	display: inline-block;
+	width: 30%;
+	font-family: 'Staatliches', cursive;
+	background: rgb(255, 255, 255,0.2);
+}
+
+#historia{
+	color:white;
+	font-family: 'Mukta', sans-serif;
+	text-align: justify;
+	margin:5px;
+	font-size: 16px;
+}
