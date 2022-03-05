@@ -1,0 +1,53 @@
+label {
+    display:white;
+    margin-top:20px;
+    letter-spacing:1px;
+    color: white;
+}
+
+.principal {
+    display:white;
+    margin:0 auto;
+    width:510px;
+    color: white;
+    font-family:Arial;
+
+}
+
+.mi-input::placeholder { color: red; font-weight: bold; }
+
+
+h1{
+    text-align: center;
+    color: white;
+}
+
+form {
+    margin:0 auto;
+    width:400px;
+}
+
+input, textarea {
+	width:380px;
+	height:27px;
+	background-color:white; filter:alpha(opacity=100); opacity:.6; }
+    span, img { color:white; filter:alpha(opacity=100); opacity:1; 
+	border:2px solid #f6f6f6;
+	padding:10px;
+	margin-top:10px;
+	font-size:12px;
+	color: white;
+}
+
+textarea {
+	height:150px;
+}
+
+#submit{
+    width:85px;
+    height:35px;
+    border:none;
+    margin-top:25px;
+    cursor:pointer;
+}
+
